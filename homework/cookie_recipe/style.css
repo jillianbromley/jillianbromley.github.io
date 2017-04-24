@@ -1,0 +1,48 @@
+body {
+	background-color: #FFE;
+	border-style: solid;
+	border-color: black;
+	padding-left:30px;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 32px;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-size: 24px;
+}
+
+a {
+	color: #900;
+}
+
+ul {
+	font-family: Helvetica;
+}
+
+ol {
+	font-family: Helvetica;
+}
+
+p {
+	font-family: Helvetica;
+}
+
+p[class=related] {
+	color:#887;
+}
+
+p[class=italic] {
+	font-style: italic;
+	font-weight: bold;
+	color: #999;
+	font-size: 20px;
+}
+
+img {
+	border-style: solid;
+	border-color: black;
+}
