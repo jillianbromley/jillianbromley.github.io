@@ -1,0 +1,12 @@
+body {
+	background-color: #3498db;
+	margin: 20px;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: white;
+}
