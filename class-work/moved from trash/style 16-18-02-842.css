@@ -1,0 +1,40 @@
+body {
+	background-color: #797890;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	color: #2f2189;
+	font-family: Georgia;
+	font-size: 40px;
+}
+
+h2 {
+	color: #2f2189;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	color: #2f2189;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+h3 {
+	color: #1b5081;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+a {
+	color: #3c6798;
+}

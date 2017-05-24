@@ -1,0 +1,44 @@
+.wrapper {
+
+}
+
+header {
+  width: 800px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 15px 10px;
+}
+
+.section{
+  margin: 10px;
+}
+
+.section1 {
+  width: 600px;
+  height: 400px;
+  background-color: lightgray;
+  float: left;
+  margin-right: 15px;
+}
+
+.section2 {
+  width: 170px;
+  height: 400px;
+  background-color: lightgray;
+  float: left;
+  margin-left: 15px;
+}
+
+footer {
+  width: 800px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 15px 10px;
+}
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

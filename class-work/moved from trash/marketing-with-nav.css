@@ -1,0 +1,50 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box-one {
+  width: 150px;
+  height: 150px
+  background: gray;
+}
+
+
+
+/*.box {
+  height: 150px;
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  float: left;
+  width: 20%; 
+}
+
+section {
+  background: gray;
+  float: left;
+  width: 60%;
+}
+
+aside {
+  background: green;
+  float: right;
+  width: 20%;
+}
+
+footer {
+  background: blue;
+}*/
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

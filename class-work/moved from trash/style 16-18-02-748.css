@@ -1,0 +1,40 @@
+.main {
+	background: #e3e3e3;
+	padding: 20px;
+}
+
+.nav {
+	background: black;
+	color: white;
+	padding: 2px;
+	margin: 5px 5px 25px 5px;
+}
+
+.one {
+	background: tomato;
+	color: blue;
+	padding: 10px 5px;
+	margin: 5px;
+}
+
+.two {
+	background: tomato;
+	color: green;
+	padding: 10px 5px;
+	margin: 5px;
+}
+
+.three {
+	background: tomato;
+	color: yellow;
+	padding: 10px 5px;
+	margin: 5px;
+}
+
+p {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}

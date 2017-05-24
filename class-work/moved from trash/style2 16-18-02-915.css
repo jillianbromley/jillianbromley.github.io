@@ -1,0 +1,33 @@
+.main {
+	background: #ccc;
+	padding: 10px;
+}
+
+.navigation {
+	background: black;
+	color: white;
+	margin: 10px;
+	}
+
+.text {
+	background: white;
+	padding: 5px 10px;
+	margin: 10px;
+}
+
+.box-one {
+	color: green;
+}
+
+.box-two {
+	color: navy;
+}
+
+.box-three {
+	color: purple;
+}
+
+p {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
