@@ -1,0 +1,63 @@
+.wrapper {
+	width: 800px;
+}
+
+header {
+	height: 150px;
+	background-color: lightgray;
+	margin: 10px;
+}
+
+.square1 {
+	height: 300px;
+	width: 380px;
+	background-color: lightgray;
+	margin: 10px;
+	float: left;
+}
+
+.square2 {
+	height: 300px;
+	width: 380px;
+	background-color: lightgray;
+	margin: 10px;
+	float: left;
+}
+
+.rectangle1 {
+	height: 150px;
+	width: 246px;
+	background-color: lightgray;
+	margin: 10px;
+	float: left;
+}
+
+.rectangle2 {
+	height: 150px;
+	width: 246px;
+	background-color: lightgray;
+	margin: 10px;
+	float: left;
+}
+
+.rectangle3 {
+	height: 150px;
+	width: 246px;
+	background-color: lightgray;
+	margin: 10px;
+	float: left;
+}
+
+footer {
+	height: 150px;
+	background-color: lightgray;
+	margin: 10px;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

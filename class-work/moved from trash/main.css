@@ -1,0 +1,120 @@
+/*my code*/
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    width:  900px;
+    padding: 54px;
+}
+
+.headline {
+    color: tomato;
+    font-family: Lato;
+    font-weight: 200;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.subhead {
+    color: #666;
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+.navitems a {
+    text-decoration: underline;
+    padding-right: 20px; 
+    color: #ddd;
+}
+
+/* mouse over link */
+.navitems a:hover {
+    color: black;
+}
+
+section {
+	background: yellow;
+  	float: left;
+  	width: 600px; 
+}
+
+aside {
+	background: gray;
+  	float: right;
+  	width: 280px; 
+  	height: 300px;
+}
+
+.article {
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ddd;
+}
+
+.articledate {
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.articletitle {
+    color: black;
+    font-size: 24px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 600px;
+}
+
+.articletext {
+    color: #444;
+    line-height: 1.5em;
+}
+
+.continue {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.continue a {
+    color: #DD0000;
+    text-decoration: none;
+}
+
+.continue a:hover {
+    color: #aa0000;
+}
+
+.footeritems {
+    color: #ccc;
+}
+
+.footeritems a { 
+    color: #DD0000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.footeritems a:hover {
+    color: #aa0000;
+}
+
+.copyright {
+    color: #bbb;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

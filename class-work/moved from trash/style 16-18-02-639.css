@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background: url("http://i.imgur.com/qYh5Bwh.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+
+h1 {
+  color: #178C83;
+  font-size: 32px;
+  font-family: roboto condensed;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+
+ h2 {
+  color: #178C83;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 600;  
+}
+
+p {
+  color: #065762;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+input {
+  width: 260px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #178C83;
+  padding: 12px 20px;
+  margin: 6px;
+  font-size: 18px;
+  font-family: roboto;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 300px;
+  background: #178C83;
+  color: white;
+  border-radius: 4px;
+}
+
+  a {
+  color: #065762;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 600;
+}

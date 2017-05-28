@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "craft-authentication@github:invisionapp/craft-authentication",
+        "scope": null,
+        "escapedName": "craft-authentication",
+        "name": "craft-authentication",
+        "rawSpec": "github:invisionapp/craft-authentication",
+        "spec": "github:invisionapp/craft-authentication",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:invisionapp/craft-authentication.git",
+          "sshUrl": "git+ssh://git@github.com/invisionapp/craft-authentication.git",
+          "httpsUrl": "git+https://github.com/invisionapp/craft-authentication.git",
+          "gitUrl": "git://github.com/invisionapp/craft-authentication.git",
+          "shortcut": "github:invisionapp/craft-authentication",
+          "directUrl": "https://raw.githubusercontent.com/invisionapp/craft-authentication/master/package.json"
+        }
+      },
+      "/Applications/Adobe Photoshop CC 2017/Plug-ins/Generator/com.invisionlabs.sync-generator"
+    ]
+  ],
+  "_from": "invisionapp/craft-authentication",
+  "_id": "craft-authentication@1.0.0",
+  "_inCache": true,
+  "_location": "/craft-authentication",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "craft-authentication@github:invisionapp/craft-authentication",
+    "scope": null,
+    "escapedName": "craft-authentication",
+    "name": "craft-authentication",
+    "rawSpec": "github:invisionapp/craft-authentication",
+    "spec": "github:invisionapp/craft-authentication",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:invisionapp/craft-authentication.git",
+      "sshUrl": "git+ssh://git@github.com/invisionapp/craft-authentication.git",
+      "httpsUrl": "git+https://github.com/invisionapp/craft-authentication.git",
+      "gitUrl": "git://github.com/invisionapp/craft-authentication.git",
+      "shortcut": "github:invisionapp/craft-authentication",
+      "directUrl": "https://raw.githubusercontent.com/invisionapp/craft-authentication/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/invisionapp/craft-authentication.git#f25a109659574940e1a64e55d7da0110f689f6fa",
+  "_shasum": "83c62d18076138aff6e3087dd62434c5d5ed9fd3",
+  "_shrinkwrap": null,
+  "_spec": "craft-authentication@github:invisionapp/craft-authentication",
+  "_where": "/Applications/Adobe Photoshop CC 2017/Plug-ins/Generator/com.invisionlabs.sync-generator",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/invisionapp/craft-authentication/issues"
+  },
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "description": "Simple craft authentication library",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.0.5",
+    "babel-preset-es2015": "6.24.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-babel": "^3.2.0"
+  },
+  "gitHead": "f25a109659574940e1a64e55d7da0110f689f6fa",
+  "homepage": "https://github.com/invisionapp/craft-authentication#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "craft-authentication",
+  "optionalDependencies": {},
+  "readme": "# craft-authentication\n\n[![Team](https://img.shields.io/badge/team-neon-0F73EE.svg)](https://invisionapp.atlassian.net/projects/NEON)\n![Status](https://img.shields.io/badge/status-active-green.svg)\n\nSimple craft authentication library\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invisionapp/craft-authentication.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "fixlint": "eslint -c .eslintrc src --fix",
+    "lint": "eslint -c .eslintrc src"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+		</div>
+
+		<div class="floatwrapper clearfix">
+			<div class="section1">
+				<h2>Current Temp</h2>
+					<input id="current-temp-input" maxlength="3"><br/><br/>
+					<select id="dropdown">
+						<option>Farenheit</option>
+						<option>Celcius</option>
+					</select> <br/><br/>
+
+					<button id="submit">Convert!</button>
+			</div>
+
+			<div class="section2">
+			<h3>If it's <span id="current-temp-text"> </span> degrees <span id="current-unit-text"></span>, that means it's</h3>
+			<h1>
+				<span id="newtemp"></span>
+			</h1>
+
+			<h4><span id="newunit"> </h4>
+
+			</div>
+		</div>	
+
+		<div class="footer">
+		</div>	
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/project.js"></script>
+
+</body>
+</html>
