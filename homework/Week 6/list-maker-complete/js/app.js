@@ -26,9 +26,6 @@ function appendItem(list){
 		$('#item').val('').focus();
  	}
 }
-	$('#list').click(function(){
-		$(this).remove();
-	})
 
 })
 
