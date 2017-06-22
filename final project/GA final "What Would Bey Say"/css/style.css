@@ -1,0 +1,189 @@
+html, body {
+	height: 100%;
+}
+
+
+body {
+	background-color: black;
+	
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+h1 {
+	color: #E7BBD6;
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #eaeaea;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 18.5px;
+}
+
+h3 {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.form-wrapper {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-left: 15px;
+}
+
+.prompt {
+	color: white;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-right: 10px;
+	padding-top: 14px;
+	float: left;
+}
+
+select {
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: #eaeaea;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #6d6d6d;
+	font-size: 15px;
+    margin: 0 auto;
+    float: left;
+}
+
+p {
+	color: lightgray;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 200px;
+}
+
+button {
+	height: 40px;
+	width: 70px;
+	background-color: white;
+	border: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 10px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.shufflebtn {
+	height: 40px;
+	width: 100px;
+	background-color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: black;
+	border: none;
+	border-radius: none;
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+	display: none;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+body.inspiredstyle {
+	/*background-color: #964168;*/
+	background-image: linear-gradient(#C776A1 0%, #964168 100%);
+}
+
+.inspiredstyle p {
+	color: white;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 34px;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+.romanticstyle {
+	background-image: linear-gradient(#C297B4 0%, #8E5E7D 100%);
+
+/*	background-color: #8E5E7D;
+*/}
+
+.romanticstyle p {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 34px;
+	line-height: 50px;
+}
+
+.fiercestyle {	
+	background-image: linear-gradient(#A690B7 0%, #6D5781 100%);
+/*	background-color: #A97DA3;
+*/}
+
+.fiercestyle p {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	line-height: 40px;
+
+}
+
+.flawlessstyle {
+	background-image: linear-gradient(#FF91A2 0%, #AA5F6D 100%);
+/*	background-color: #6D5781;
+*/}
+
+.flawlessstyle p {
+	color: white;
+	font-family: 'Sorts Mill Goudy', serif;	
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.ruthlessstyle {
+	background-image: linear-gradient(#AF66A0 0%, #5F2C53 100%);
+/*	background-color: #5F2C53;
+*/}
+
+.ruthlessstyle p {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 300;
+	font-size: 32px;
+	letter-spacing: 1.5px;
+	line-height: 45px;
+}
+
+.confidentstyle {
+	background-image: linear-gradient(#8C72A1 0%, #392A46 100%);
+/*	background-color: #493758;
+*/}
+
+.confidentstyle p {
+	color: white;
+	font-family: 'Shrikhand', cursive;
+	font-size: 32px;
+	letter-spacing: 2.5px;
+	line-height: 45px;
+}
